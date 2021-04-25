@@ -87,7 +87,7 @@ h2, h3, h4 {
     color: #FFF;
     z-index: 1
 }
-.header .bx-wrapper {
+.header .bx-wrapper , .header .bxslider {
     height: 100%
 }
 .header .bx-wrapper .bx-viewport {
@@ -96,9 +96,6 @@ h2, h3, h4 {
     background: none;
     height: 100% !important;
     text-align: center
-}
-.header .bxslider {
-    height: 100%
 }
 .header .bxslider li {
     display: block
@@ -211,10 +208,7 @@ h2, h3, h4 {
 
 /* Start Testimonials */
 .testim {
-    background: url('../images/keyboard.webp');
-    -webkit-background-size:cover;
-    -moz-background-size:cover;
-    -o-background-size:cover;
+    background-image: url('../images/keyboard.webp');
     background-size:cover;
     height: 400px;
     position: relative;
@@ -256,7 +250,6 @@ h2, h3, h4 {
 /* End Testimoanials */
 
 /* Start Projects */
-
 .our-projects {
     padding: 60px 0;
 }
